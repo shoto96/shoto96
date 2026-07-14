@@ -1,6 +1,6 @@
 # 👋 Olá, eu sou Jean Vieira
 
-💻 Desenvolvedor Back-End em formação | Java • Spring Boot • APIs REST
+💻 Desenvolvedor Back-End em formação Java • Spring Boot • APIs REST
 
 Sou um apaixonado por desenvolvimento de software e tecnologia, focado na construção de aplicações escaláveis, seguras e de alta qualidade.
 
