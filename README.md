@@ -1,6 +1,8 @@
 👋 Olá, eu sou Jean Vieira
 
-💻 Desenvolvedor Back-End e Front End 🚀 Stack Tecnológica
+💻 Desenvolvedor Back-End e Front End 
+
+🚀 Stack Tecnológica
 
 ### 💻 Back-End
 
@@ -123,6 +125,7 @@ Sou um apaixonado por desenvolvimento de software e tecnologia, focado na constr
 Atualmente estou aprofundando meus conhecimentos em Java, Spring Boot, APIs REST, Banco de Dados, Git e boas práticas de desenvolvimento, sempre buscando escrever código limpo, organizado e de fácil manutenção.
 
 Tenho formação técnica em Redes de Computadores, o que me proporciona uma base sólida em infraestrutura, protocolos de rede, servidores e segurança, complementando minha jornada como desenvolvedor.
+
 🚀 Stack Tecnológica
 
 💻 Back-End
