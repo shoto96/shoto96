@@ -1,6 +1,122 @@
 👋 Olá, eu sou Jean Vieira
 
-💻 Desenvolvedor Back-End em formação | Java • Spring Boot • APIs REST
+💻 Desenvolvedor Back-End e Front End 🚀 Stack Tecnológica
+
+### 💻 Back-End
+
+- Java
+- Spring Boot
+- APIs REST
+- JPA / Hibernate
+
+### 🗄️ Banco de Dados
+
+- SQL
+- Modelagem de Dados
+
+### 🌐 Redes
+
+- TCP/IP
+- Cabeamento Estruturado
+- Redes Ópticas
+- Protocolos
+- Servidores
+- Monitoramento de Redes
+
+### 🛠️ Ferramentas
+
+- Git
+- GitHub
+- IntelliJ IDEA
+- VS Code
+
+### 📚 Atualmente estudando
+
+- Spring Security
+- Docker
+- Microsserviços
+- Testes Automatizados
+- Arquitetura de Software
+
+---
+
+## 🎓 Formação
+
+Tecnólogo em Análise e Desenvolvimento de Sistemas  
+Universidade Pitágoras Unopar Anhanguera
+
+Técnico em Redes de Computadores  
+SENAI CETIND
+
+---
+
+## 📜 Certificações
+
+- Desenvolvimento de APIs REST com Spring Boot
+- Lógica de Programação
+- Técnico em Redes de Computadores
+- Montagem e Manutenção de Computadores
+- Informática Avançada
+
+---🚀 Stack Tecnológica
+
+### 💻 Back-End
+
+- Java
+- Spring Boot
+- APIs REST
+- JPA / Hibernate
+
+### 🗄️ Banco de Dados
+
+- SQL
+- Modelagem de Dados
+
+### 🌐 Redes
+
+- TCP/IP
+- Cabeamento Estruturado
+- Redes Ópticas
+- Protocolos
+- Servidores
+- Monitoramento de Redes
+
+### 🛠️ Ferramentas
+
+- Git
+- GitHub
+- IntelliJ IDEA
+- VS Code
+
+### 📚 Atualmente estudando
+
+- Spring Security
+- Docker
+- Microsserviços
+- Testes Automatizados
+- Arquitetura de Software
+
+---
+
+## 🎓 Formação
+
+Tecnólogo em Análise e Desenvolvimento de Sistemas  
+Universidade Pitágoras Unopar Anhanguera
+
+Técnico em Redes de Computadores  
+SENAI CETIND
+
+---
+
+## 📜 Certificações
+
+- Desenvolvimento de APIs REST com Spring Boot
+- Lógica de Programação
+- Técnico em Redes de Computadores
+- Montagem e Manutenção de Computadores
+- Informática Avançada
+
+--- | Java • Spring Boot • APIs REST
 
 Sou um apaixonado por desenvolvimento de software e tecnologia, focado na construção de aplicações escaláveis, seguras e de alta qualidade.
 
