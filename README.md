@@ -1,6 +1,5 @@
 # Hi 👋, I'm shoto96
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=shoto96&label=Profile views&color=0e75b6&style=flat" alt="shoto96" /> </p>
 
 <h3 align="left">Conecte-se comigo:</h3>
 <p align="left">
