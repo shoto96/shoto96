@@ -2,6 +2,19 @@
 
 ### Analista De Sistema 
 
+**Sobre Mim**
+
+Sou um profissional com conhecimento integrado em diversas áreas da tecnologia:
+
+- Análise e Desenvolvimento de Sistemas
+- Redes de Computadores
+- Técnico em Informática
+- Web Design
+- Design Gráfico
+
+Atuo com foco em desenvolvimento Back-End utilizando Java e Spring Boot, criando aplicações seguras, escaláveis e bem estruturadas.
+
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=shoto96&label=Profile views&color=0e75b6&style=flat" alt="shoto96" /> </p>
 
 
