@@ -29,3 +29,5 @@ Atuo com foco em desenvolvimento Back-End utilizando Java e Spring Boot, criando
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=shoto96&" alt="shoto96" /></p>
 
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=00D9FF&height=120&section=footer&animation=twinkling"/></div>
+
