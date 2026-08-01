@@ -17,7 +17,6 @@ Sou um profissional com conhecimento integrado em diversas áreas da tecnologia:
 
 Atuo com foco em desenvolvimento Back-End utilizando Java e Spring Boot, criando aplicações seguras, escaláveis e bem estruturadas.
 
-
 <h3 align="left">Conecte-se comigo:</h3>
 <p align="left">
 <a href="https://github.com/shoto96" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="shoto96" height="30" width="40" /></a>
