@@ -1,4 +1,3 @@
-# Hi 👋, I'm shoto96
 
 ### Analista De Sistema 
 
@@ -11,6 +10,9 @@ Sou um profissional com conhecimento integrado em diversas áreas da tecnologia:
 - Técnico em Informática
 - Web Design
 - Design Gráfico
+- Técnico em redes
+- Tecnologia da Informação
+- Suporte Técnico  
 
 Atuo com foco em desenvolvimento Back-End utilizando Java e Spring Boot, criando aplicações seguras, escaláveis e bem estruturadas.
 
