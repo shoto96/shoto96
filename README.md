@@ -12,12 +12,10 @@ Sou um profissional com conhecimento integrado em diversas áreas da tecnologia:
 - Design Gráfico
 - Técnico em redes
 - Tecnologia da Informação
-- Suporte Técnico  
+- Suporte Técnico
+- Programação  
 
 Atuo com foco em desenvolvimento Back-End utilizando Java e Spring Boot, criando aplicações seguras, escaláveis e bem estruturadas.
-
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=shoto96&label=Profile views&color=0e75b6&style=flat" alt="shoto96" /> </p>
 
 
 <h3 align="left">Conecte-se comigo:</h3>
