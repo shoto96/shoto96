@@ -1,5 +1,5 @@
 ========================================
- WINDOWS CMD / POWERSHELL — DEV MODE
+ WINDOWS CMD / 
 ========================================
 
 [ FILE SYSTEM ]
