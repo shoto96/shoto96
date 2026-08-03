@@ -1,5 +1,5 @@
 ========================================
- LINUX COMMANDS — HACKER / DEV MANUAL
+ LINUX COMMANDS
 ========================================
 
 [ FILE SYSTEM ]
