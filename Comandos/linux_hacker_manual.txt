@@ -1,0 +1,31 @@
+========================================
+ LINUX COMMANDS — HACKER / DEV MANUAL
+========================================
+
+[ FILE SYSTEM ]
+ls -la        -> lista tudo (inclusive ocultos)
+cd /path      -> navega diretórios
+pwd           -> mostra caminho atual
+rm -rf        -> remove tudo (CUIDADO)
+
+[ POWER COMMANDS ]
+chmod +x file.sh   -> torna executável
+chown user:file    -> muda dono
+sudo su            -> root total
+
+[ PROCESS CONTROL ]
+ps aux        -> lista processos
+kill -9 PID   -> força kill
+top / htop    -> monitoramento
+
+[ NETWORK ]
+ip a          -> IP da máquina
+ping google.com
+curl url      -> request direto
+wget url      -> download direto
+
+[ SEARCH / HACK MODE ]
+find / -name file
+grep -r "texto" .
+
+========================================

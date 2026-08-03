@@ -1,0 +1,30 @@
+========================================
+ GIT & GITHUB — HACKER / DEV MANUAL
+========================================
+
+[ INIT ]
+git init
+git clone URL
+
+[ FLOW ]
+git status
+git add .
+git commit -m "msg"
+git push origin main
+
+[ BRANCH ]
+git branch
+git checkout -b dev
+git merge main
+
+[ DEBUG ]
+git log --oneline
+git diff
+git reset --hard
+
+[ POWER ]
+git stash
+git rebase
+git cherry-pick
+
+========================================

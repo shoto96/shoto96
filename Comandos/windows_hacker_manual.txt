@@ -1,0 +1,31 @@
+========================================
+ WINDOWS CMD / POWERSHELL — DEV MODE
+========================================
+
+[ FILE SYSTEM ]
+dir
+cd
+mkdir
+rmdir /s /q
+
+[ SYSTEM ]
+tasklist
+taskkill /F /PID
+shutdown /s /t 0
+
+[ NETWORK ]
+ipconfig
+ping google.com
+netstat -an
+
+[ POWER ]
+sfc /scannow
+chkdsk /f
+
+[ POWERSHELL ]
+Get-Process
+Get-Service
+Get-Command
+Get-Help
+
+========================================
