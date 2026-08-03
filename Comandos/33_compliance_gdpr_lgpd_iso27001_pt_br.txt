@@ -1,0 +1,9 @@
+=== 33. CONFORMIDADE, LGPD, GDPR E ISO/IEC 27001 ===
+1. PRINCÍPIOS DA LGPD / GDPR
+- Finalidade, Adequação e Necessidade na coleta de dados pessoais.
+- Direitos do Titular: Confirmação, acesso, correção e eliminação de dados.
+- Relatório de Impacto à Proteção de Dados Pessoais (RIPD / DPIA).
+
+2. ISO 27001 / 27002
+- SGSI: Sistema de Gestão de Segurança da Informação.
+- Controles de Segurança: Gestão de Ativos, Controle de Acesso, Criptografia, Segurança Física e Operacional.

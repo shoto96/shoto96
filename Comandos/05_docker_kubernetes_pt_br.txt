@@ -1,0 +1,11 @@
+=== 05. DOCKER & KUBERNETES ===
+1. DOCKER
+docker run -d -p 80:80 --name web nginx:alpine
+docker ps -a
+docker exec -it web /bin/sh
+docker-compose up -d
+
+2. KUBERNETES
+kubectl get pods -A
+kubectl logs -f <pod>
+kubectl apply -f deployment.yaml

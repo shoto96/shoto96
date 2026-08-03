@@ -1,0 +1,9 @@
+=== 25. SEGURANÇA EM REDES SEM FIO (WIRELESS) ===
+1. PROTOCOLOS E EVOLUÇÃO
+- WEP / WPA / WPA2-PSK: Vulneráveis a ataques de dicionário via captura de handshake 4-way.
+- WPA3-Personal (SAE): Utiliza autenticação simultânea de iguais, prevenindo ataques offline de dicionário.
+- WPA2/WPA3-Enterprise (802.1X): Autenticação centralizada com servidor RADIUS e certificados EAP-TLS.
+
+2. MEDIDAS DEFENSIVAS
+- Desabilitar WPS (Wi-Fi Protected Setup).
+- Segmentação de Rede de Visitantes (Guest Network) isolada da LAN interna.

@@ -1,0 +1,12 @@
+=== 06. SQL & BANCO DE DADOS ===
+CREATE TABLE usuarios (
+    id BIGSERIAL PRIMARY KEY,
+    nome VARCHAR(100),
+    email VARCHAR(255) UNIQUE
+);
+
+SELECT u.nome, COUNT(p.id) 
+FROM usuarios u
+LEFT JOIN pedidos p ON u.id = p.usuario_id
+GROUP BY u.nome
+HAVING COUNT(p.id) > 5;

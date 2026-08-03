@@ -1,0 +1,9 @@
+=== 21. HARDENING E SEGURANÇA DE ACTIVE DIRECTORY (AD) ===
+1. BOAS PRÁTICAS DE ARQUITETURA AD
+- Implementação de Modelo de Camadas de Administração (Tiered Administration Model: Tier 0, Tier 1, Tier 2).
+- Desabilitação de protocolos legados: NTLMv1, SMBv1, Digest Authentication.
+- Proteção contra Kerberoasting e AS-REP Roasting: Senhas fortes e complexas (>25 caracteres) para contas de serviço (Managed Service Accounts - gMSA).
+
+2. AUDITORIA DE GRUPOS PRIVILEGIADOS
+- Monitoramento contínuo dos grupos: Domain Admins, Enterprise Admins, Schema Admins.
+- Ativação do LAPS (Local Administrator Password Solution) para alternar senhas de administradores locais.

@@ -1,0 +1,4 @@
+=== 10. DEVOPS & CI/CD ===
+- Load Balancers (NGINX/HAProxy)
+- Caching (Redis)
+- CI/CD via GitHub Actions / GitLab CI

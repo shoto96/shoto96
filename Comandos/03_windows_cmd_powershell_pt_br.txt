@@ -1,0 +1,12 @@
+=== 03. WINDOWS CMD & POWERSHELL ===
+1. CMD
+dir /a /s
+tasklist /v
+taskkill /PID 1234 /F
+ipconfig /flushdns
+
+2. POWERSHELL
+Get-Process | Sort-Object CPU -Descending
+Get-Service | Where-Object {$_.Status -eq 'Running'}
+Test-NetConnection -ComputerName "127.0.0.1" -Port 443
+Invoke-WebRequest -Uri "https://site.com/file" -OutFile "f.zip"

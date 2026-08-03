@@ -1,0 +1,16 @@
+=== 15. DESENVOLVIMENTO WEB FULLSTACK ===
+1. BACKEND (NODE.JS / EXPRESS)
+const express = require('express');
+const app = express();
+app.use(express.json());
+
+app.get('/api/health', (req, res) => {
+    res.json({ status: 'ok', timestamp: new Date() });
+});
+
+app.listen(3000, () => console.log('Server running on port 3000'));
+
+2. FRONTEND ARCHITECTURE
+- Componentização (React / Vue / Angular)
+- State Management (Redux / Zustand)
+- SSR / SSG com Next.js

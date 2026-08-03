@@ -1,0 +1,25 @@
+=== 20. INFRAESTRUTURA COMO CÓDIGO (TERRAFORM E ANSIBLE) ===
+1. EXEMPLO TERRAFORM (AWS EC2)
+provider "aws" {
+  region = "us-east-1"
+}
+
+resource "aws_instance" "web_server" {
+  ami           = "ami-0c55b159cbfafe1f0"
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "WebServerProd"
+  }
+}
+
+2. EXEMPLO ANSIBLE PLAYBOOK
+- name: Configurar Servidor NGINX
+  hosts: webservers
+  become: yes
+  tasks:
+    - name: Instalar NGINX
+      apt:
+        name: nginx
+        state: present
+        update_cache: yes

@@ -1,0 +1,9 @@
+=== 35. DEVSECOPS & SEGURANÇA EM PIPELINES CI/CD ===
+1. ETAPAS DE SEGURANÇA NA PIPELINE
+1. SAST (Static Application Security Testing): SonarQube, Semgrep.
+2. DAST (Dynamic Application Security Testing): OWASP ZAP automated scan.
+3. SCA (Software Composition Analysis): Dependency-Check, Snyk (Varredura de bibliotecas vulneráveis).
+4. Secret Detection: GitLeaks, Trufflehog (Prevenção de vazamento de chaves API no Git).
+
+2. EXEMPLO DE REGRA SEMGREP
+semgrep --config=p/ci

@@ -1,0 +1,13 @@
+=== 23. ARQUITETURA DE SOFTWARE E MICROSSERVIÇOS ===
+1. PADRÕES DE ARQUITETURA
+- API Gateway (Kong, Traefik, AWS API Gateway)
+- Service Mesh (Istio, Linkerd)
+- Mensageria e Event-Driven Architecture (Apache Kafka, RabbitMQ)
+- Padrão Saga para transações distribuídas
+
+2. PRINCÍPIOS SOLID
+- S: Single Responsibility Principle
+- O: Open/Closed Principle
+- L: Liskov Substitution Principle
+- I: Interface Segregation Principle
+- D: Dependency Inversion Principle

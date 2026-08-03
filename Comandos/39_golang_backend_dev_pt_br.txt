@@ -1,0 +1,27 @@
+=== 39. DESENVOLVIMENTO BACKEND E SISTEMAS EM GO (GOLANG) ===
+1. ESTRUTURA BÁSICA E SERVIDOR HTTP ESTRUTURADO
+package main
+
+import (
+    "fmt"
+    "net/http"
+    "time"
+)
+
+func main() {
+    mux := http.NewServeMux()
+    mux.HandleFunc("/health", func(w http.ResponseWriter, r *http.Request) {
+        w.Header().Set("Content-Type", "application/json")
+        fmt.Fprintf(w, `{"status":"ok","time":"%s"}`, time.Now().Format(time.RFC3339))
+    })
+
+    server := &http.Server{
+        Addr:         ":8080",
+        Handler:      mux,
+        ReadTimeout:  5 * time.Second,
+        WriteTimeout: 10 * time.Second,
+    }
+
+    fmt.Println("Servidor rodando na porta 8080...")
+    server.ListenAndServe()
+}

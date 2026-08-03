@@ -1,0 +1,11 @@
+=== 12. SOC, SIEM E RESPOSTA A INCIDENTES ===
+1. SIEM LOG ANALYSIS
+- Monitoramento de tentativas de login falhas (Event ID 4625 no Windows, /var/log/auth.log no Linux)
+- Regras YARA para identificação de artefatos maliciosos em arquivos.
+- Regras Sigma para padronização de detecção SIEM (Splunk, Elastic, QRadar).
+
+2. INCIDENT RESPONSE PHASES (NIST SP 800-61)
+1. Preparação
+2. Detecção e Análise
+3. Contenção, Erradicação e Recuperação
+4. Pós-Incidente (Lições Aprendidas)

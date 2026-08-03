@@ -1,0 +1,15 @@
+=== 04. PYTHON AUTOMATION & DEV ===
+1. MANIPULAÇÃO DE ARQUIVOS
+from pathlib import Path
+p = Path("./dados")
+p.mkdir(exist_ok=True)
+
+2. REQUISIÇÕES HTTP
+import requests
+res = requests.get("https://api.github.com/users")
+print(res.json())
+
+3. CONCORRÊNCIA
+from concurrent.futures import ThreadPoolExecutor
+with ThreadPoolExecutor(max_workers=4) as executor:
+    results = list(executor.map(lambda x: x*2, range(10)))

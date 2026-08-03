@@ -1,0 +1,14 @@
+=== 19. SEGURANÇA DE REDES, FIREWALLS E VPNS ===
+1. IPTABLES / UFW (LINUX)
+# Permitir apenas SSH e HTTP/HTTPS no UFW
+ufw default deny incoming
+ufw default allow outgoing
+ufw allow 22/tcp
+ufw allow 80/tcp
+ufw allow 443/tcp
+ufw enable
+
+2. ARQUITETURA DE REDE SEGURA
+- DMZ (Zona Desmilitarizada) para servidores públicos.
+- Segmentação de Redes por VLANs.
+- VPNs Corporativas: WireGuard, OpenVPN, IPsec IKEv2.

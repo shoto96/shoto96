@@ -1,0 +1,9 @@
+=== 28. SEGURANÇA E DESIGN DE APIS (REST & GRAPHQL) ===
+1. AUTENTICAÇÃO E AUTORIZAÇÃO
+- OAuth 2.0 & OpenID Connect (OIDC) para delegação de acesso segura.
+- JWT (JSON Web Tokens): Assinatura com algoritmos assimétricos (RS256) em vez de simétricos fracos (HS256).
+
+2. PROTEÇÃO DE ENDPOINTS
+- Rate Limiting e Throttling para prevenir Negação de Serviço (DoS) e força bruta.
+- Validação estrita de Schema JSON de entrada.
+- Desabilitação de Introspecção em ambientes de produção no GraphQL.

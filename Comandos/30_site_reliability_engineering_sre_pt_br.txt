@@ -1,0 +1,10 @@
+=== 30. SITE RELIABILITY ENGINEERING (SRE) ===
+1. MÉTRICAS CHAVE (SLI, SLO, SLA)
+- SLI (Service Level Indicator): Métrica real de desempenho (ex: latência média = 45ms).
+- SLO (Service Level Objective): Meta interna (ex: 99.9% de requisições com latência < 100ms).
+- SLA (Service Level Agreement): Compromisso contratual com cliente com penalidade financeira.
+
+2. OBSERVABILIDADE (3 PILARES)
+- Métricas: Prometheus / Grafana
+- Logs: ELK Stack (Elasticsearch, Logstash, Kibana) / Loki
+- Tracing Distribuído: OpenTelemetry / Jaeger

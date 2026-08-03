@@ -1,0 +1,11 @@
+=== 40. PLANO DE RECUPERAÇÃO DE DESASTRES (DRP) E BACKUP ===
+1. MÉTRICAS CHAVE DE DR
+- RTO (Recovery Time Objective): Tempo máximo tolerável para restabelecer o serviço após um desastre.
+- RPO (Recovery Point Objective): Quantidade máxima aceitável de perda de dados medida em tempo.
+
+2. ESTRATÉGIA DE BACKUP 3-2-1-1-0
+- 3 Cópias de dados
+- 2 Mídias diferentes (ex: Disco + Nuvem)
+- 1 Cópia Off-site (Fora da empresa)
+- 1 Cópia Imutável (WORM - Write Once, Read Many / Air-gapped)
+- 0 Erros após validação periódica automática de restauração.

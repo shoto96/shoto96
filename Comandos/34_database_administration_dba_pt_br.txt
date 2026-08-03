@@ -1,0 +1,14 @@
+=== 34. ADMINISTRAÇÃO DE BANCO DE DADOS (POSTGRESQL & MYSQL DBA) ===
+1. BACKUP E RECOVERY
+# PostgreSQL Backup Lógico
+pg_dump -U postgres -d meubanco -F c -b -v -f meubanco.backup
+
+# PostgreSQL Restauração
+pg_restore -U postgres -d meubanco -v meubanco.backup
+
+2. OTIMIZAÇÃO DE DESEMPENHO (POSTGRESQL)
+- Ajustes em postgresql.conf:
+  shared_buffers = 25% da RAM total
+  work_mem = 64MB
+  maintenance_work_mem = 512MB
+  effective_cache_size = 75% da RAM

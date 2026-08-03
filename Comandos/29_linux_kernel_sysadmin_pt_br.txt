@@ -1,0 +1,16 @@
+=== 29. LINUX KERNEL TUNING & SYSADMIN AVANÇADO ===
+1. AJUSTES SYSCTL DE REDE (/etc/sysctl.conf)
+# Proteção contra SYN Flood
+net.ipv4.tcp_syncookies = 1
+
+# Desabilitar IP Forwarding (se não for roteador)
+net.ipv4.ip_forward = 0
+
+# Desabilitar ICMP Redirects
+net.ipv4.conf.all.accept_redirects = 0
+
+# Aplicar alterações instantaneamente
+sysctl -p
+
+2. GERENCIAMENTO DE MEMÓRIA E SWAP
+sysctl vm.swappiness=10

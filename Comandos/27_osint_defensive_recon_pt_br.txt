@@ -1,0 +1,9 @@
+=== 27. OSINT E RECONHECIMENTO DEFENSIVO DE SUPERFÍCIE ===
+1. RECONHECIMENTO PASSIVO
+- Consultas WHOIS de domínios corporativos.
+- Monitoramento de Certificados SSL (Certificate Transparency Logs via crt.sh).
+- Mapeamento de registros DNS públicos (MX, TXT, SPF, DKIM, DMARC).
+
+2. CONFIGURAÇÃO DE SEGURANÇA E-MAIL (ANTISPAM / ANTI-PHISHING)
+- SPF: v=spf1 ip4:192.0.2.0/24 -all
+- DMARC: v=DMARC1; p=reject; rua=mailto:dmarc-reports@empresa.com

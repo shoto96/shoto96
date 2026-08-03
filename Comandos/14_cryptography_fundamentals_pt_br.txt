@@ -1,0 +1,18 @@
+=== 14. CRIPTOGRAFIA E INFRAESTRUTURA PKI ===
+1. CRIPTOGRAFIA SIMÉTRICA VS ASSIMÉTRICA
+- Simétrica: AES-256-GCM (Chave única para cifrar e decifrar)
+- Assimétrica: RSA-4096, ECC (Ed25519) - Chave pública e privada
+
+2. OPENSSL COMANDOS ÚTEIS
+# Gerar chave privada RSA
+openssl genrsa -out private.key 4096
+
+# Gerar CSR (Certificate Signing Request)
+openssl req -new -key private.key -out request.csr
+
+# Inspecionar certificado X.509
+openssl x509 -in cert.crt -text -noout
+
+3. HASHING
+sha256sum arquivo.txt
+argon2 / bcrypt para armazenamento seguro de senhas

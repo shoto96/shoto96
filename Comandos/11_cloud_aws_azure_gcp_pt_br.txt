@@ -1,0 +1,19 @@
+=== 11. CLOUD COMPUTING (AWS, AZURE, GCP) ===
+1. AWS CLI
+aws s3 ls
+aws ec2 describe-instances --query "Reservations[*].Instances[*].[InstanceId,State.Name]"
+aws iam list-users
+
+2. AZURE CLI
+az group list
+az vm list --output table
+az storage account list
+
+3. GOOGLE CLOUD (GCLOUD)
+gcloud compute instances list
+gcloud container clusters get-credentials my-cluster
+
+4. ARCHITECTURE BEST PRACTICES
+- Multi-AZ Deployment
+- Auto-scaling Groups
+- IAM Least Privilege Policies

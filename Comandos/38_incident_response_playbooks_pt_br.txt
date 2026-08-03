@@ -1,0 +1,7 @@
+=== 38. PLAYBOOKS DE RESPOSTA A INCIDENTES DE SEGURANÇA ===
+1. PLAYBOOK DE CONTENÇÃO DE RANSOMWARE
+1. Isolamento imediato do host afetado da rede (desconectar cabo de rede / isolar via EDR).
+2. Preservação de memória RAM para análise pericial.
+3. Revogação de credenciais do usuário afetado e bloqueio de sessões ativas no Active Directory / Azure AD.
+4. Identificação do vetor de entrada e verificação de movimentação lateral.
+5. Restauração a partir de backups limpos e testados off-line.

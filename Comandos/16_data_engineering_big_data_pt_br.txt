@@ -1,0 +1,13 @@
+=== 16. ENGENHARIA DE DADOS E BIG DATA ===
+1. ECOSSISTEMA DE DADOS
+- ETL / ELT: Apache Airflow, dbt, Apache NiFi.
+- Processamento Distribuído: Apache Spark, PySpark.
+- Data Lake / Data Warehouse: Snowflake, AWS Redshift, Google BigQuery, Databricks.
+
+2. EXEMPLO PYSPARK
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder.appName("DataPipeline").getOrCreate()
+df = spark.read.json("s3://bucket/dados/*.json")
+df_filtered = df.filter(df["age"] > 18).groupBy("city").count()
+df_filtered.write.parquet("s3://bucket/processado/")

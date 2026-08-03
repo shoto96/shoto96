@@ -1,0 +1,9 @@
+=== 36. SISTEMAS EMBARCADOS E SEGURANÇA IOT ===
+1. DESAFIOS EM DISPOSITIVOS IOT
+- Recursos computacionais restritos (CPU e RAM limitados).
+- Dificuldade no envio de atualizações over-the-air (OTA Updates) seguras.
+
+2. REQUISITOS SEGUROS
+- Hardware Secure Boot (Validação da assinatura do firmware antes da inicialização).
+- Desabilitação de interfaces de depuração física em lote de produção (JTAG / UART).
+- Utilização de Criptografia de Armazenamento e Círculo de Confiança (TPM / Hardware Security Module - HSM).

@@ -1,0 +1,5 @@
+=== 08. REDES E SEGURANÇA DEFENSIVA ===
+ss -tulpn
+traceroute 8.8.8.8
+dig +trace site.com
+nmap -sV -p 22,80,443 192.168.1.1

@@ -1,0 +1,9 @@
+=== 31. SEGURANÇA DE CONTAINERS & AUDITORIA ===
+1. VARREDURA DE VULNERABILIDADES DE IMAGEM
+trivy image nginx:latest
+grype ubuntu:latest
+
+2. MONITORAMENTO EM TEMPO REAL NO KUBERNETES
+- Falco para detecção de comportamento anômalo no Runtime (ex: spawn de shell em container).
+- Adotar imagens Minimal/Distroless para reduzir superfície de ataque.
+- Executar containers sempre como usuário Não-Root (Non-Root User).

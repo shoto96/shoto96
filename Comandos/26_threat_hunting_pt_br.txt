@@ -1,0 +1,11 @@
+=== 26. THREAT HUNTING E ENGENHARIA DE DETECÇÃO ===
+1. METODOLOGIA
+- Formulação de Hipóteses baseadas no framework MITRE ATT&CK.
+- Coleta de Telemetria (Sysmon, Endpoint Detection & Response - EDR).
+- Análise de Anomalias de Comportamento.
+
+2. SYSCONFIG / SYSMON EVENTS
+- Event ID 1: Criação de Processos (Process Creation)
+- Event ID 3: Conexão de Rede (Network Connection)
+- Event ID 7: Carregamento de Módulo/DLL (Image Loaded)
+- Event ID 11: Criação de Arquivo (FileCreate)

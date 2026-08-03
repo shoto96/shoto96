@@ -1,0 +1,8 @@
+=== 37. MODELAGEM DE AMEAÇAS (FRAMEWORK STRIDE) ===
+1. CATEGORIAS STRIDE E MITIGAÇÕES
+- S - Spoofing (Falsificação): Autenticação forte (MFA, Certificados digital).
+- T - Tampering (Adulteração): Integridade (Assinatura digital, Hashes HMAC).
+- R - Repudiation (Repúdio): Auditoria irrefutável e Logs centralizados assinados.
+- I - Information Disclosure (Vazamento de Info): Criptografia em trânsito e repouso.
+- D - Denial of Service (DoS): Rate limiting, Redundância, CDN / DDoS Protection.
+- E - Elevation of Privilege (Elevação de Privilégio): Princípio do Menor Privilégio, RBAC.

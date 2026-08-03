@@ -1,0 +1,14 @@
+=== 18. DESENVOLVIMENTO SEGURO & OWASP TOP 10 DEFENSIVO ===
+1. PREVENÇÃO A INJECTION (SQLi)
+- ERRADO: "SELECT * FROM users WHERE user = '" + input + "'"
+- CORRETO: Consultas Preparadas (Parameterized Queries / Prepared Statements)
+
+2. PREVENÇÃO A XSS (CROSS-SITE SCRIPTING)
+- Sanitização de entrada e escape de saída HTML/JS.
+- Cabeçalhos de Segurança HTTP:
+  Content-Security-Policy: default-src 'self'
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+
+3. GERENCIAMENTO DE SESSÃO SEGURO
+- Cookies com flags: Secure; HttpOnly; SameSite=Strict

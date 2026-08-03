@@ -1,0 +1,10 @@
+=== 24. ENGENHARIA REVERSA E ANÁLISE DE MALWARE DEFENSIVA ===
+1. AMBIENTE DE ANÁLISE SEGURO (SANDBOX)
+- Isolamento completo de rede (Host-Only Network).
+- Ferramentas estáticas: Ghidra, IDA Free, PEstudio, Radare2.
+- Ferramentas dinâmicas: Process Hacker, Sysinternals ProcMon, x64dbg, Wireshark.
+
+2. COMANDOS ÚTEIS (LINUX BINARIES)
+file binario                  # Identifica tipo de arquivo e arquitetura
+strings binario | grep -i http# Extrai strings legíveis
+objdump -d binario            # Desmonta seções de código assembly

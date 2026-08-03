@@ -1,0 +1,17 @@
+=== 01. LINUX MANUAL MASTER ===
+1. COMANDOS BÁSICOS
+ls -la                     # Lista todos os arquivos e permissões
+pwd                        # Diretório atual
+cd /caminho                # Muda de diretório
+mkdir -p dir/subdir        # Cria estrutura de diretórios
+rm -rf dir/                # Remove pasta recursivamente
+cp -rv orig dest           # Copia arquivos
+mv orig dest               # Move/renomeia arquivos
+
+2. PROCESSOS E SISTEMA
+ps aux | grep nome         # Busca processos ativos
+htop                       # Monitor de sistema
+kill -9 <PID>              # Encerra processo
+systemctl status nginx     # Status de serviço
+df -h                      # Uso de disco
+free -h                    # Uso de memória RAM

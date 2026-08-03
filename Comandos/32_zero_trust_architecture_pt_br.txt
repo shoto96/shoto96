@@ -1,0 +1,10 @@
+=== 32. ARQUITETURA ZERO TRUST & GESTÃO DE IDENTIDADE ===
+1. PILARES DO ZERO TRUST
+- Nunca Confie, Sempre Verifique.
+- Assuma a Brecha de Segurança (Assume Breach).
+- Acesso com Menor Privilégio (Least Privilege Access).
+
+2. COMPONENTES PRINCIPAIS
+- Autenticação Multifator Fortificada (MFA via FIDO2 / Passkeys).
+- Microsegmentação de Rede.
+- Validação de Postura do Dispositivo (Device Health Check) antes de liberar acesso à rede.

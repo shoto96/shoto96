@@ -1,0 +1,11 @@
+=== 13. PERÍCIA DIGITAL E COMPUTAÇÃO FORENSE (DFIR) ===
+1. COLETA DE EVIDÊNCIAS
+- Coleta de memória RAM volátil (FTK Imager, LiME).
+- Preservação de integridade através de hashes SHA-256.
+- Cadeia de Custódia detalhada.
+
+2. ANÁLISE DE ARTEFATOS LINUX & WINDOWS
+- Windows Prefetch, Shimcache, Amcache para execução de binários.
+- Linux /var/log/syslog, auth.log, bash_history, utmp/wtmp (logins).
+- Análise de despejo de memória com Volatility 3:
+  vol -f memory.raw windows.pslist
