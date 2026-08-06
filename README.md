@@ -47,8 +47,6 @@ Sou **Gean Dev**, um **Analista de Sistemas** e **Desenvolvedor Back-End** espec
 - 📱 **Desenvolvimento Mobile** com Flutter
 - 🔄 **Integração de Sistemas e Automação**
 
-> 💡 **Busco oportunidades como Desenvolvedor Java Júnior/Pleno, Analista de Sistemas ou Programador Back-End em empresas que valorizam inovação, qualidade de código e crescimento profissional.**
-
 ---
 
 ## 🚀 Stack Tecnológica | Tecnologias e Ferramentas
