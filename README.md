@@ -24,10 +24,6 @@
 
 ## 👨‍💻 Sobre Mim | Desenvolvedor Java & Analista de Sistemas
 
-<p align="left">
-  <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="Desenvolvedor Back-End Java trabalhando em aplicações escaláveis com Spring Boot" min-width="300px" max-width="300px" width="300px" align="right">
-</p>
-
 Sou **Gean Dev**, um **Analista de Sistemas** e **Desenvolvedor Back-End** especializado em **Java**, **Spring Boot**, **APIs REST** e arquitetura de **microsserviços**. Com formação integrada em tecnologia da informação, redes de computadores e desenvolvimento de software, atuo na construção de soluções robustas, seguras e de alta performance para empresas e startups.
 
 ### 🎯 Expertises e Serviços
