@@ -6,11 +6,6 @@
   Keywords: Java, Spring Boot, APIs REST, Full Stack, Desenvolvedor Backend
 ========================================
 -->
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:00D9FF,100:7B2FF7&height=250&section=header&text=Gean%20Dev&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Analista%20de%20Sistemas%20%7C%20Desenvolvedor%20Back-End%20Java%20%26%20Spring%20Boot&descSize=18&descAlignY=55&descAlign=50"/>
-</div>
-
 <!-- SEO Keywords em texto visível -->
 <p align="center">
   <a href="https://github.com/shoto96">
