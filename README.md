@@ -1,5 +1,4 @@
 <!-- 
-========================================
   GITHUB PROFILE README - SEO OPTIMIZED
   Developer: Gean Dev
   Role: Analista de Sistemas | Back-End Developer
